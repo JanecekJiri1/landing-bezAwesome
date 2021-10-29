@@ -1,0 +1,33 @@
+@font-face {
+  font-family: klaviak-normal;
+  src: url(../../fonts/klavika-medium.otf);
+}
+
+.stripsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.insideText {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.41);
+  display: inline-block;
+  width: 100%;
+  padding: 3.5vmin 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: klaviak-normal;
+}
+
+.insideText {
+  text-transform: uppercase;
+  font-size: 2vmax;
+}
+
+.spanOne {
+  color: yellow;
+}

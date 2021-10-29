@@ -1,0 +1,49 @@
+@font-face {
+  font-family: klaviak-medium;
+  src: url(../../fonts/klavika-medium.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.textWrapper {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+div {
+  text-transform: uppercase;
+}
+
+span {
+  color: yellow;
+}
+
+.spanTwo {
+  font-weight: normal;
+  font-size: 70%;
+  padding-bottom: 5%;
+}
+
+.lowerText {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.3vmax;
+  font-weight: bold;
+  font-family: klaviak-medium;
+}
+
+.topText {
+  font-size: 1.8vmax;
+  display: flex;
+  justify-content: start;
+
+  transform: translate(0, 50%);
+}

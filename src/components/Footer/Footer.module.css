@@ -1,0 +1,20 @@
+@font-face {
+  font-family: klaviak-bold;
+  src: url(../../fonts/klavika-bold.otf);
+}
+
+.wrapperFooter {
+  color: white;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, -150%);
+}
+
+.footer {
+  display: inline-block;
+  color: rgb(102, 102, 102);
+  text-transform: lowercase;
+  font-size: 1.2rem;
+  font-family: klaviak-bold;
+}

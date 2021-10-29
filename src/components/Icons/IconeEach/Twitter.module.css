@@ -1,0 +1,25 @@
+.twitter {
+  width: 75px;
+  height: 75px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #2fa9fa;
+  box-shadow: -1px -1px 5px;
+}
+
+img {
+  overflow: hidden;
+  width: 90%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.twitter:hover {
+  border: 2px solid white;
+  color: white;
+  box-shadow: -1px -1px 5px;
+  border-radius: 7px;
+}

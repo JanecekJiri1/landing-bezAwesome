@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import Background from "./components/BackGround/Background";
+import MiddleStripe from "./components/Middlestripe/MiddleStripe";
+import TopText from "./components/TopText/TopText";
+import Icons from "./components/Icons/Icons";
+import Footer from "./components/Footer/Footer";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Background>
+        <TopText />
+        <MiddleStripe />
+        <Icons />
+        <Footer />
+      </Background>
+    </>
   );
-}
+};
 
 export default App;
