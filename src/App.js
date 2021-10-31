@@ -1,4 +1,3 @@
-import React, { Fragment } from "react";
 import Background from "./components/BackGround/Background";
 import MiddleStripe from "./components/Middlestripe/MiddleStripe";
 import TopText from "./components/TopText/TopText";
@@ -7,14 +6,12 @@ import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
-    <>
-      <Background>
-        <TopText />
-        <MiddleStripe />
-        <Icons />
-        <Footer />
-      </Background>
-    </>
+    <Background>
+      <TopText />
+      <MiddleStripe />
+      <Icons />
+      <Footer />
+    </Background>
   );
 };
 

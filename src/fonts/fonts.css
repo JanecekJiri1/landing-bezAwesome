@@ -1,0 +1,13 @@
+@font-face {
+  font-family: klavika-bold;
+  src: url(./klavika-bold.otf);
+}
+
+@font-face {
+  font-family: klavika-light;
+  src: url(./klavika-light.otf);
+}
+@font-face {
+  font-family: klavika-regular-i;
+  src: url(./klavika-regular-italic.otf);
+}

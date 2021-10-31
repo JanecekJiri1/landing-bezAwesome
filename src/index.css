@@ -5,10 +5,22 @@
 }
 
 html {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: Noto Sans JP, sans-serif;
 }
 
 body {
   margin: 0;
   position: relative;
+}
+
+span {
+  color: yellow;
+}
+
+div {
+  text-transform: uppercase;
+}
+
+a {
+  color: white;
 }

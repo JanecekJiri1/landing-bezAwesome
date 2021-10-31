@@ -2,11 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import Background from "./components/BackGround/Background";
-
+import "./fonts/fonts.css";
 ReactDOM.render(
-  <Background>
-    <App />
-  </Background>,
+  <App />,
+
   document.getElementById("root")
 );

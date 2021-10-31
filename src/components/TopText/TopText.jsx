@@ -8,7 +8,8 @@ const TopText = () => {
       </div>
 
       <div className={classes.lowerText}>
-        <span>Beast</span>Zone <span className={classes.spanTwo}>&trade;</span>
+        <span>Beast</span>Zone
+        <span className={classes.spanTwo}>&trade;</span>
       </div>
     </div>
   );
