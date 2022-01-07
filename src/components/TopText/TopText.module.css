@@ -20,3 +20,15 @@
 
   transform: translate(0, 10%);
 }
+
+/*******  media querires ***************/
+
+@media only screen and (max-width: 1150px) {
+  .lowerText {
+    font-size: 3.5rem;
+  }
+
+  .topText {
+    font-size: 1.8rem;
+  }
+}

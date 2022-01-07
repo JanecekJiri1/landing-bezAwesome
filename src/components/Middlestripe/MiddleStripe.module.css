@@ -18,3 +18,20 @@
   text-transform: uppercase;
   font-size: 2vmax;
 }
+
+/****** Media Queries *******/
+
+@media only screen and (max-width: 970px) {
+  .insideText {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .insideText {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}

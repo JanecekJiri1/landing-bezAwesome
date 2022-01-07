@@ -5,3 +5,11 @@
   font-family: klavika-regular, sans-serif;
   transform: translate(0, 15vh);
 }
+
+/*******  media querires ***************/
+
+@media only screen and (max-width: 970px) {
+  .footer {
+    transform: translate(0, 10vh);
+  }
+}
