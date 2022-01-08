@@ -10,6 +10,6 @@
 
 @media only screen and (max-width: 970px) {
   .footer {
-    transform: translate(0, 10vh);
+    transform: translate(0, 11vh);
   }
 }
