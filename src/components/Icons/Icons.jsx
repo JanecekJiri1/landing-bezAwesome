@@ -1,12 +1,14 @@
 import classes from "./Icons.module.css";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaGooglePlusG, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Icons = (props) => {
   return (
     <div className={classes.icons}>
       <div className={classes.icon}>
         <a href="https://www.google.cz/">
-          <div className={classes.google}>{/* <FontAwesomeIcon icon={faGooglePlusG} /> */}</div>
+          <div className={classes.google}>
+            <FaGooglePlusG />
+          </div>
         </a>
       </div>
       <div className={classes.icon}>
@@ -18,12 +20,16 @@ const Icons = (props) => {
       </div>
       <div className={classes.icon}>
         <a href="https://twitter.com/">
-          <div className={classes.twitter}>{/* <FontAwesomeIcon icon={faTwitter} /> */}</div>
+          <div className={classes.twitter}>
+            <FaTwitter />
+          </div>
         </a>
       </div>
       <div className={classes.icon}>
         <a href="https://www.instagram.com/">
-          <div className={classes.instagram}>{/* <FontAwesomeIcon icon={faInstagram} /> */}</div>
+          <div className={classes.instagram}>
+            <FaInstagram />
+          </div>
         </a>
       </div>
     </div>
