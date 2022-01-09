@@ -1,13 +1,5 @@
 import classes from "./Icons.module.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// // import { faCoffee } from "@fortawesome/free-solid-svg-icons"; /* Připomínka pro mě */
-// // import { faGooglePlusSquare } from "@fortawesome/free-brands-svg-icons";
-// import {
-//   faGooglePlusG,
-//   faFacebookF,
-//   faTwitter,
-//   faInstagram,
-// } from "@fortawesome/free-brands-svg-icons";
+import { FaFacebookF } from "react-icons/fa";
 
 const Icons = (props) => {
   return (
@@ -19,7 +11,9 @@ const Icons = (props) => {
       </div>
       <div className={classes.icon}>
         <a href="https://www.facebook.com/">
-          <div className={classes.facebook}>{/* <FontAwesomeIcon icon={faFacebookF} /> */}</div>
+          <div className={classes.facebook}>
+            <FaFacebookF />
+          </div>
         </a>
       </div>
       <div className={classes.icon}>
